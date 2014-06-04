@@ -55,9 +55,7 @@ public class HotelModel {
 		
 		for(Hotel hotel : hotels) {
 			if (hotel.getCity().equalsIgnoreCase(city)) {
-				hotelsFound.add(hotel);
-			}
-		}
+				hotelsFound.add(hot
 		
 		return hotelsFound;
 	}	
